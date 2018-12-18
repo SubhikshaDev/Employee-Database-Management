@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".report">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".CreateRecord">
+    <EditText
+        android:id="@+id/eID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/rep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Report"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:inputType="text"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/but"
+            />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

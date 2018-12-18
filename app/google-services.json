@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "212107876185",
+    "firebase_url": "https://venzo-a446f.firebaseio.com",
+    "project_id": "venzo-a446f",
+    "storage_bucket": "venzo-a446f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212107876185:android:1dcdf58aa1c3e59e",
+        "android_client_info": {
+          "package_name": "com.example.subhidev.venzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212107876185-rrn9pil7qpgjj2llsklsqjbho8pjjlk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.subhidev.venzo",
+            "certificate_hash": "59cfeab875a299cb453e959ae1714b4761cf00aa"
+          }
+        },
+        {
+          "client_id": "212107876185-stnd5km5dmc187ci0pfbu75uvb97jv9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkOzRN5oACjQePBxbE9pzRkv77BoLoCJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212107876185-stnd5km5dmc187ci0pfbu75uvb97jv9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

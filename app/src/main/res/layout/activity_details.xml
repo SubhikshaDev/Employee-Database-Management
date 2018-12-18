@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".CreateRecord">
+        <EditText
+            android:id="@+id/empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee ID"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/empname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Highest degree of education"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="University/College"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="year of passing"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/employer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employer1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/dur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="#000"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+</ScrollView>
